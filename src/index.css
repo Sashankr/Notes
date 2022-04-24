@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap');
 
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
 
 :root{
   --font-primary : 'Montserrat', sans-serif;
@@ -13,12 +18,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 0;
-  box-sizing: border-box;
+  
   font-family: 'Roboto', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container{
+  max-width: 1366px;
+  margin: 0 auto;
 }

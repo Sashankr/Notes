@@ -1,0 +1,30 @@
+.landing__title{
+    font-family: var(--font-primary);
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.landing__subtitle{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: normal;
+}
+
+.landing__article{
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.landing{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    place-items: center;
+    height: 100vh;
+}
+
+.landing__image img{
+    width: 100%;
+    object-fit: cover;
+    height: 290px;
+}
