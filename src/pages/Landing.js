@@ -2,7 +2,7 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 
 import '../styles/Landing.css'
-import StickNotes from '../assets/sticky-notes.png'
+import NoteTakingImage from '../assets/notes.svg'
 
 const Landing = () => {
     return (
@@ -17,7 +17,7 @@ const Landing = () => {
 
             <Fade bottom>
                 <aside className='landing__image'>
-                    <img src={StickNotes} alt="sticky-notes" />
+                    <img src={NoteTakingImage} alt="sticky-notes" />
                 </aside>
             </Fade>
         </div>
